@@ -1,0 +1,18 @@
+--- 
+title: "Methods Manual"
+author: "Chris Gibbons, Daniel Taylor, Nicola McHugh, Giles Robinson & Laurie Platt"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: 
+biblio-style: apalike
+link-citations: yes
+github-repo: laurie-platt/methods-manual
+description: "This is a Methods Manual for Business Intelligence in Sheffield City Council."
+---
+# Introduction {#intro}
+
+## Purpose of this document
+
+## Author info

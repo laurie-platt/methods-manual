@@ -1,0 +1,21 @@
+# Building a data set
+
+## General principles
+
+## Data linkage
+
+## Security and storage
+
+## Version control
+
+## Naming conventions
+
+## Descriptive statistics
+
+## Assumptions testing (parametric etc.)
+
+## Handling Missing Data
+
+## Understanding distributions, their application and consequences
+
+## Data transformation

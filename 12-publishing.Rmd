@@ -1,0 +1,21 @@
+# Report writing / publishing / Tool deployment 
+
+## Structure and formatting
+
+## Version control
+
+## Publishing guidance 
+
+## Developer notes and user guide development
+
+## Ongoing support arrangements
+
+## Presentations
+
+## Structure and formatting
+
+## Version control
+
+## Recording audio
+
+## Archiving

@@ -1,0 +1,47 @@
+# Modelling
+
+## Minimum practice standards
+
+## Regression
+
+## Univariate approaches
+
+## Multivariate approaches
+
+### Variable processing
+
+#### Descriptive statistics and distributions
+
+#### Dealing with missing data 
+
+### Variable selection
+
+#### Intercorrelation/autocorrelation 
+
+#### Stepwise approaches
+
+#### Reducing dimensionality (PCA etc.) 
+
+## Advanced approaches    
+
+### Machine learning
+		
+### Neural networks
+
+## Simulation approaches
+
+### Markov chains
+
+### Agent-based simulation 
+
+## Accuracy assessment
+
+### Model testing and accuracy assessment
+
+### Tests of goodness of fit
+	
+### Sensitivity analyses
+
+#### Deterministic
+
+## Probabilistic 

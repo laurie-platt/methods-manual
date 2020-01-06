@@ -1,0 +1,13 @@
+# Library and referencing standards
+
+## Bibliographic
+
+## Packages and code
+
+## Assumptions libraries
+
+## Data dictionaries
+
+## Commenting on code and expressions
+
+## Development diaries
