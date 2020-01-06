@@ -1,6 +1,7 @@
 # Data Quality Assessment and Audit
 
 ## Purpose
+The purpose of a data quality assessment ...
 
 ## Guidelines
 
