@@ -1,3 +1,7 @@
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "[Get Started](https://bookdown.org/yihui/bookdown/get-started.html)" at https://bookdown.org/yihui/bookdown/ for how to compile this example into HTML. You may generate a copy of the book in `bookdown::pdf_book` format by calling `bookdown::render_book('index.Rmd', 'bookdown::pdf_book')`. More detailed instructions are available here https://bookdown.org/yihui/bookdown/build-the-book.html.
+This **Methods Manual** is for Business Intelligence in Sheffield City Council. It is published to GitHub Pages at https://laurie-platt.github.io/methods-manual/. On a push to the repo a GitHub Action rebuilds the html files and copies them to GitHub Pages.
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/.
+There is a markdown file (.Rmd) for each chapter, which can be edited and pushed directly from the GitHub web interface. More likely you will prefer the flexibility of editing and building a local repo for testing prior to a commit. The RStudio IDE has addins and integrations to make this easier. Please see the chapter "[Connect RStudio to Git and GitHub](https://happygitwithr.com/rstudio-git-github.html)" at https://happygitwithr.com/ for advice on configuration.
+
+This book is based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "[Get Started](https://bookdown.org/yihui/bookdown/get-started.html)" at https://bookdown.org/yihui/bookdown/ for information on installing bookdown. You may generate a copy of the book in `bookdown::pdf_book` format by calling `bookdown::render_book('index.Rmd', 'bookdown::pdf_book')`. More detailed instructions are available here https://bookdown.org/yihui/bookdown/build-the-book.html.
+
+The intention is to explore the GitHub collaboration tools e.g. CONTRIBUTING.md, Projects, Pull Requests, Issues and Wiki. 
