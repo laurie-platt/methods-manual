@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Data Quality Assessment and Audit | Methods Manual</title>
+  <meta name="description" content="This is a Methods Manual for Business Intelligence in Sheffield City Council." />
+  <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Data Quality Assessment and Audit | Methods Manual" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a Methods Manual for Business Intelligence in Sheffield City Council." />
+  <meta name="github-repo" content="laurie-platt/methods-manual" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Data Quality Assessment and Audit | Methods Manual" />
+  
+  <meta name="twitter:description" content="This is a Methods Manual for Business Intelligence in Sheffield City Council." />
+  
+
+<meta name="author" content="Chris Gibbons, Daniel Taylor, Nicola McHugh, Giles Robinson &amp; Laurie Platt" />
+
+
+<meta name="date" content="2020-01-06" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="starting-a-bi-project.html"/>
+<link rel="next" href="searching-for-evidence-for-inclusion-in-analyses-models-or-business-cases.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Methods Manual</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#purpose-of-this-document"><i class="fa fa-check"></i><b>1.1</b> Purpose of this document</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#author-info"><i class="fa fa-check"></i><b>1.2</b> Author info</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="glossary-of-terms.html"><a href="glossary-of-terms.html"><i class="fa fa-check"></i><b>2</b> Glossary of terms</a></li>
+<li class="chapter" data-level="3" data-path="starting-a-bi-project.html"><a href="starting-a-bi-project.html"><i class="fa fa-check"></i><b>3</b> Starting a BI project</a><ul>
+<li class="chapter" data-level="3.1" data-path="starting-a-bi-project.html"><a href="starting-a-bi-project.html#submission-of-requests-and-prioritisation-process"><i class="fa fa-check"></i><b>3.1</b> Submission of requests and Prioritisation process</a></li>
+<li class="chapter" data-level="3.2" data-path="starting-a-bi-project.html"><a href="starting-a-bi-project.html#establishing-the-scope"><i class="fa fa-check"></i><b>3.2</b> Establishing the scope</a></li>
+<li class="chapter" data-level="3.3" data-path="starting-a-bi-project.html"><a href="starting-a-bi-project.html#project-planning-timelines"><i class="fa fa-check"></i><b>3.3</b> Project planning (timelines)</a></li>
+<li class="chapter" data-level="3.4" data-path="starting-a-bi-project.html"><a href="starting-a-bi-project.html#sponsorship-and-reporting"><i class="fa fa-check"></i><b>3.4</b> Sponsorship and reporting</a></li>
+<li class="chapter" data-level="3.5" data-path="starting-a-bi-project.html"><a href="starting-a-bi-project.html#terms-of-engagement"><i class="fa fa-check"></i><b>3.5</b> Terms of engagement</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data-quality-assessment-and-audit.html"><a href="data-quality-assessment-and-audit.html"><i class="fa fa-check"></i><b>4</b> Data Quality Assessment and Audit</a><ul>
+<li class="chapter" data-level="4.1" data-path="data-quality-assessment-and-audit.html"><a href="data-quality-assessment-and-audit.html#purpose"><i class="fa fa-check"></i><b>4.1</b> Purpose</a></li>
+<li class="chapter" data-level="4.2" data-path="data-quality-assessment-and-audit.html"><a href="data-quality-assessment-and-audit.html#guidelines"><i class="fa fa-check"></i><b>4.2</b> Guidelines</a></li>
+<li class="chapter" data-level="4.3" data-path="data-quality-assessment-and-audit.html"><a href="data-quality-assessment-and-audit.html#outputs"><i class="fa fa-check"></i><b>4.3</b> Outputs</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="searching-for-evidence-for-inclusion-in-analyses-models-or-business-cases.html"><a href="searching-for-evidence-for-inclusion-in-analyses-models-or-business-cases.html"><i class="fa fa-check"></i><b>5</b> Searching for evidence (for inclusion in analyses, models, or business cases)</a><ul>
+<li class="chapter" data-level="5.1" data-path="searching-for-evidence-for-inclusion-in-analyses-models-or-business-cases.html"><a href="searching-for-evidence-for-inclusion-in-analyses-models-or-business-cases.html#useful-sources-of-evidence"><i class="fa fa-check"></i><b>5.1</b> Useful sources of evidence</a></li>
+<li class="chapter" data-level="5.2" data-path="searching-for-evidence-for-inclusion-in-analyses-models-or-business-cases.html"><a href="searching-for-evidence-for-inclusion-in-analyses-models-or-business-cases.html#search-strategies-when-how-to-use-them"><i class="fa fa-check"></i><b>5.2</b> Search strategies (when &amp; how to use them)</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="assessing-quality-of-evidence-for-inclusion-in-analyses-models-or-business-cases.html"><a href="assessing-quality-of-evidence-for-inclusion-in-analyses-models-or-business-cases.html"><i class="fa fa-check"></i><b>6</b> Assessing quality of evidence (for inclusion in analyses, models, or business cases)</a><ul>
+<li class="chapter" data-level="6.1" data-path="assessing-quality-of-evidence-for-inclusion-in-analyses-models-or-business-cases.html"><a href="assessing-quality-of-evidence-for-inclusion-in-analyses-models-or-business-cases.html#critical-appraisal"><i class="fa fa-check"></i><b>6.1</b> Critical appraisal</a></li>
+<li class="chapter" data-level="6.2" data-path="assessing-quality-of-evidence-for-inclusion-in-analyses-models-or-business-cases.html"><a href="assessing-quality-of-evidence-for-inclusion-in-analyses-models-or-business-cases.html#analysissynthesis"><i class="fa fa-check"></i><b>6.2</b> Analysis/synthesis</a></li>
+<li class="chapter" data-level="6.3" data-path="assessing-quality-of-evidence-for-inclusion-in-analyses-models-or-business-cases.html"><a href="assessing-quality-of-evidence-for-inclusion-in-analyses-models-or-business-cases.html#quantifying-reporting-and-incorporating-uncertainty"><i class="fa fa-check"></i><b>6.3</b> Quantifying, reporting and incorporating uncertainty</a></li>
+<li class="chapter" data-level="6.4" data-path="assessing-quality-of-evidence-for-inclusion-in-analyses-models-or-business-cases.html"><a href="assessing-quality-of-evidence-for-inclusion-in-analyses-models-or-business-cases.html#subgroups-inequality-and-diversity-considerations"><i class="fa fa-check"></i><b>6.4</b> Subgroups, inequality and diversity considerations</a></li>
+<li class="chapter" data-level="6.5" data-path="assessing-quality-of-evidence-for-inclusion-in-analyses-models-or-business-cases.html"><a href="assessing-quality-of-evidence-for-inclusion-in-analyses-models-or-business-cases.html#summarising-evidence"><i class="fa fa-check"></i><b>6.5</b> Summarising evidence</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="building-a-data-set.html"><a href="building-a-data-set.html"><i class="fa fa-check"></i><b>7</b> Building a data set</a><ul>
+<li class="chapter" data-level="7.1" data-path="building-a-data-set.html"><a href="building-a-data-set.html#general-principles"><i class="fa fa-check"></i><b>7.1</b> General principles</a></li>
+<li class="chapter" data-level="7.2" data-path="building-a-data-set.html"><a href="building-a-data-set.html#data-linkage"><i class="fa fa-check"></i><b>7.2</b> Data linkage</a></li>
+<li class="chapter" data-level="7.3" data-path="building-a-data-set.html"><a href="building-a-data-set.html#security-and-storage"><i class="fa fa-check"></i><b>7.3</b> Security and storage</a></li>
+<li class="chapter" data-level="7.4" data-path="building-a-data-set.html"><a href="building-a-data-set.html#version-control"><i class="fa fa-check"></i><b>7.4</b> Version control</a></li>
+<li class="chapter" data-level="7.5" data-path="building-a-data-set.html"><a href="building-a-data-set.html#naming-conventions"><i class="fa fa-check"></i><b>7.5</b> Naming conventions</a></li>
+<li class="chapter" data-level="7.6" data-path="building-a-data-set.html"><a href="building-a-data-set.html#descriptive-statistics"><i class="fa fa-check"></i><b>7.6</b> Descriptive statistics</a></li>
+<li class="chapter" data-level="7.7" data-path="building-a-data-set.html"><a href="building-a-data-set.html#assumptions-testing-parametric-etc."><i class="fa fa-check"></i><b>7.7</b> Assumptions testing (parametric etc.)</a></li>
+<li class="chapter" data-level="7.8" data-path="building-a-data-set.html"><a href="building-a-data-set.html#handling-missing-data"><i class="fa fa-check"></i><b>7.8</b> Handling Missing Data</a></li>
+<li class="chapter" data-level="7.9" data-path="building-a-data-set.html"><a href="building-a-data-set.html#understanding-distributions-their-application-and-consequences"><i class="fa fa-check"></i><b>7.9</b> Understanding distributions, their application and consequences</a></li>
+<li class="chapter" data-level="7.10" data-path="building-a-data-set.html"><a href="building-a-data-set.html#data-transformation"><i class="fa fa-check"></i><b>7.10</b> Data transformation</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="modelling.html"><a href="modelling.html"><i class="fa fa-check"></i><b>8</b> Modelling</a><ul>
+<li class="chapter" data-level="8.1" data-path="modelling.html"><a href="modelling.html#minimum-practice-standards"><i class="fa fa-check"></i><b>8.1</b> Minimum practice standards</a></li>
+<li class="chapter" data-level="8.2" data-path="modelling.html"><a href="modelling.html#regression"><i class="fa fa-check"></i><b>8.2</b> Regression</a></li>
+<li class="chapter" data-level="8.3" data-path="modelling.html"><a href="modelling.html#univariate-approaches"><i class="fa fa-check"></i><b>8.3</b> Univariate approaches</a></li>
+<li class="chapter" data-level="8.4" data-path="modelling.html"><a href="modelling.html#multivariate-approaches"><i class="fa fa-check"></i><b>8.4</b> Multivariate approaches</a><ul>
+<li class="chapter" data-level="8.4.1" data-path="modelling.html"><a href="modelling.html#variable-processing"><i class="fa fa-check"></i><b>8.4.1</b> Variable processing</a></li>
+<li class="chapter" data-level="8.4.2" data-path="modelling.html"><a href="modelling.html#variable-selection"><i class="fa fa-check"></i><b>8.4.2</b> Variable selection</a></li>
+</ul></li>
+<li class="chapter" data-level="8.5" data-path="modelling.html"><a href="modelling.html#advanced-approaches"><i class="fa fa-check"></i><b>8.5</b> Advanced approaches</a><ul>
+<li class="chapter" data-level="8.5.1" data-path="modelling.html"><a href="modelling.html#machine-learning"><i class="fa fa-check"></i><b>8.5.1</b> Machine learning</a></li>
+<li class="chapter" data-level="8.5.2" data-path="modelling.html"><a href="modelling.html#neural-networks"><i class="fa fa-check"></i><b>8.5.2</b> Neural networks</a></li>
+</ul></li>
+<li class="chapter" data-level="8.6" data-path="modelling.html"><a href="modelling.html#simulation-approaches"><i class="fa fa-check"></i><b>8.6</b> Simulation approaches</a><ul>
+<li class="chapter" data-level="8.6.1" data-path="modelling.html"><a href="modelling.html#markov-chains"><i class="fa fa-check"></i><b>8.6.1</b> Markov chains</a></li>
+<li class="chapter" data-level="8.6.2" data-path="modelling.html"><a href="modelling.html#agent-based-simulation"><i class="fa fa-check"></i><b>8.6.2</b> Agent-based simulation</a></li>
+</ul></li>
+<li class="chapter" data-level="8.7" data-path="modelling.html"><a href="modelling.html#accuracy-assessment"><i class="fa fa-check"></i><b>8.7</b> Accuracy assessment</a><ul>
+<li class="chapter" data-level="8.7.1" data-path="modelling.html"><a href="modelling.html#model-testing-and-accuracy-assessment"><i class="fa fa-check"></i><b>8.7.1</b> Model testing and accuracy assessment</a></li>
+<li class="chapter" data-level="8.7.2" data-path="modelling.html"><a href="modelling.html#tests-of-goodness-of-fit"><i class="fa fa-check"></i><b>8.7.2</b> Tests of goodness of fit</a></li>
+<li class="chapter" data-level="8.7.3" data-path="modelling.html"><a href="modelling.html#sensitivity-analyses"><i class="fa fa-check"></i><b>8.7.3</b> Sensitivity analyses</a></li>
+</ul></li>
+<li class="chapter" data-level="8.8" data-path="modelling.html"><a href="modelling.html#probabilistic"><i class="fa fa-check"></i><b>8.8</b> Probabilistic</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="economic-evaluation.html"><a href="economic-evaluation.html"><i class="fa fa-check"></i><b>9</b> Economic evaluation</a><ul>
+<li class="chapter" data-level="9.1" data-path="economic-evaluation.html"><a href="economic-evaluation.html#general-approaches"><i class="fa fa-check"></i><b>9.1</b> General Approaches</a></li>
+<li class="chapter" data-level="9.2" data-path="economic-evaluation.html"><a href="economic-evaluation.html#assessing-benefits-and-harms-value"><i class="fa fa-check"></i><b>9.2</b> Assessing benefits and harms (value)</a></li>
+<li class="chapter" data-level="9.3" data-path="economic-evaluation.html"><a href="economic-evaluation.html#economic-analysis-for-interventions-funded-by-the-public-sector-with-health-and-non-health-outcomes"><i class="fa fa-check"></i><b>9.3</b> Economic analysis for interventions funded by the public sector with health and non-health outcomes</a></li>
+<li class="chapter" data-level="9.4" data-path="economic-evaluation.html"><a href="economic-evaluation.html#sources-of-unit-costs"><i class="fa fa-check"></i><b>9.4</b> Sources of unit costs</a></li>
+<li class="chapter" data-level="9.5" data-path="economic-evaluation.html"><a href="economic-evaluation.html#sources-of-health-related-quality-of-life-hrqol-data"><i class="fa fa-check"></i><b>9.5</b> Sources of Health Related Quality of Life (HRQoL) data</a></li>
+<li class="chapter" data-level="9.6" data-path="economic-evaluation.html"><a href="economic-evaluation.html#icer-calculation-and-sensitivity-analysis"><i class="fa fa-check"></i><b>9.6</b> ICER calculation and Sensitivity analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="data-visualisation.html"><a href="data-visualisation.html"><i class="fa fa-check"></i><b>10</b> Data visualisation</a><ul>
+<li class="chapter" data-level="10.1" data-path="data-visualisation.html"><a href="data-visualisation.html#presenting-tables"><i class="fa fa-check"></i><b>10.1</b> Presenting tables</a></li>
+<li class="chapter" data-level="10.2" data-path="data-visualisation.html"><a href="data-visualisation.html#presenting-charts"><i class="fa fa-check"></i><b>10.2</b> Presenting charts</a></li>
+<li class="chapter" data-level="10.3" data-path="data-visualisation.html"><a href="data-visualisation.html#presenting-maps"><i class="fa fa-check"></i><b>10.3</b> Presenting maps</a></li>
+<li class="chapter" data-level="10.4" data-path="data-visualisation.html"><a href="data-visualisation.html#model-diagrams"><i class="fa fa-check"></i><b>10.4</b> Model diagrams</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="library-and-referencing-standards.html"><a href="library-and-referencing-standards.html"><i class="fa fa-check"></i><b>11</b> Library and referencing standards</a><ul>
+<li class="chapter" data-level="11.1" data-path="library-and-referencing-standards.html"><a href="library-and-referencing-standards.html#bibliographic"><i class="fa fa-check"></i><b>11.1</b> Bibliographic</a></li>
+<li class="chapter" data-level="11.2" data-path="library-and-referencing-standards.html"><a href="library-and-referencing-standards.html#packages-and-code"><i class="fa fa-check"></i><b>11.2</b> Packages and code</a></li>
+<li class="chapter" data-level="11.3" data-path="library-and-referencing-standards.html"><a href="library-and-referencing-standards.html#assumptions-libraries"><i class="fa fa-check"></i><b>11.3</b> Assumptions libraries</a></li>
+<li class="chapter" data-level="11.4" data-path="library-and-referencing-standards.html"><a href="library-and-referencing-standards.html#data-dictionaries"><i class="fa fa-check"></i><b>11.4</b> Data dictionaries</a></li>
+<li class="chapter" data-level="11.5" data-path="library-and-referencing-standards.html"><a href="library-and-referencing-standards.html#commenting-on-code-and-expressions"><i class="fa fa-check"></i><b>11.5</b> Commenting on code and expressions</a></li>
+<li class="chapter" data-level="11.6" data-path="library-and-referencing-standards.html"><a href="library-and-referencing-standards.html#development-diaries"><i class="fa fa-check"></i><b>11.6</b> Development diaries</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="report-writing-publishing-tool-deployment.html"><a href="report-writing-publishing-tool-deployment.html"><i class="fa fa-check"></i><b>12</b> Report writing / publishing / Tool deployment</a><ul>
+<li class="chapter" data-level="12.1" data-path="report-writing-publishing-tool-deployment.html"><a href="report-writing-publishing-tool-deployment.html#structure-and-formatting"><i class="fa fa-check"></i><b>12.1</b> Structure and formatting</a></li>
+<li class="chapter" data-level="12.2" data-path="report-writing-publishing-tool-deployment.html"><a href="report-writing-publishing-tool-deployment.html#version-control-1"><i class="fa fa-check"></i><b>12.2</b> Version control</a></li>
+<li class="chapter" data-level="12.3" data-path="report-writing-publishing-tool-deployment.html"><a href="report-writing-publishing-tool-deployment.html#publishing-guidance"><i class="fa fa-check"></i><b>12.3</b> Publishing guidance</a></li>
+<li class="chapter" data-level="12.4" data-path="report-writing-publishing-tool-deployment.html"><a href="report-writing-publishing-tool-deployment.html#developer-notes-and-user-guide-development"><i class="fa fa-check"></i><b>12.4</b> Developer notes and user guide development</a></li>
+<li class="chapter" data-level="12.5" data-path="report-writing-publishing-tool-deployment.html"><a href="report-writing-publishing-tool-deployment.html#ongoing-support-arrangements"><i class="fa fa-check"></i><b>12.5</b> Ongoing support arrangements</a></li>
+<li class="chapter" data-level="12.6" data-path="report-writing-publishing-tool-deployment.html"><a href="report-writing-publishing-tool-deployment.html#presentations"><i class="fa fa-check"></i><b>12.6</b> Presentations</a></li>
+<li class="chapter" data-level="12.7" data-path="report-writing-publishing-tool-deployment.html"><a href="report-writing-publishing-tool-deployment.html#structure-and-formatting-1"><i class="fa fa-check"></i><b>12.7</b> Structure and formatting</a></li>
+<li class="chapter" data-level="12.8" data-path="report-writing-publishing-tool-deployment.html"><a href="report-writing-publishing-tool-deployment.html#version-control-2"><i class="fa fa-check"></i><b>12.8</b> Version control</a></li>
+<li class="chapter" data-level="12.9" data-path="report-writing-publishing-tool-deployment.html"><a href="report-writing-publishing-tool-deployment.html#recording-audio"><i class="fa fa-check"></i><b>12.9</b> Recording audio</a></li>
+<li class="chapter" data-level="12.10" data-path="report-writing-publishing-tool-deployment.html"><a href="report-writing-publishing-tool-deployment.html#archiving"><i class="fa fa-check"></i><b>12.10</b> Archiving</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Methods Manual</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data-quality-assessment-and-audit" class="section level1">
+<h1><span class="header-section-number">Chapter 4</span> Data Quality Assessment and Audit</h1>
+<div id="purpose" class="section level2">
+<h2><span class="header-section-number">4.1</span> Purpose</h2>
+</div>
+<div id="guidelines" class="section level2">
+<h2><span class="header-section-number">4.2</span> Guidelines</h2>
+</div>
+<div id="outputs" class="section level2">
+<h2><span class="header-section-number">4.3</span> Outputs</h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="starting-a-bi-project.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="searching-for-evidence-for-inclusion-in-analyses-models-or-business-cases.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/04-quality.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["methods-manual.pdf", "methods-manual.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
